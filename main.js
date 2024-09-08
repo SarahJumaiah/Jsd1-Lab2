@@ -1,16 +1,3 @@
-//1
-var eatsPlants = false;
-var eatsAnimals = true;
-var eatsPlants = true;
-var eatsAnimals = false;
-
-                        //      yes         else 
-var category = eatsPlants ? "herbivore" : "carnivore";
-console.log(category);
-
-var category = (eatsPlants && eatsAnimals) ? "omnivore" : "undefined";
-console.log(category);
-
 //2
 var musicians = 3;
 
@@ -67,6 +54,19 @@ var musicians = 3;
  else {
     console.log("Mystrey not solved")
  }
+
+//1
+var eatsPlants = false;
+var eatsAnimals = true;
+var eatsPlants = true;
+var eatsAnimals = false;
+
+                        //      yes         else 
+var category = eatsPlants ? "herbivore" : "carnivore";
+console.log(category);
+
+var category = (eatsPlants && eatsAnimals) ? "omnivore" : "undefined";
+console.log(category);
 
  //4
 var balance = -325;
